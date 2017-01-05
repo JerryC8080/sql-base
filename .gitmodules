@@ -1,0 +1,3 @@
+[submodule "site"]
+	path = site
+	url = git@github.com:JerryC8080/sql-base.git
