@@ -1,0 +1,254 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "\u603b\u89c8\n#", 
+            "title": "\u603b\u89c8"
+        }, 
+        {
+            "location": "/#_1", 
+            "text": "", 
+            "title": "\u603b\u89c8"
+        }, 
+        {
+            "location": "/ch01/", 
+            "text": "\u57fa\u672c\u6982\u5ff5\n#\n\n\n\u6570\u636e\u5e93 DB\n#\n\n\nDatabase, \u6570\u636e\u7684\u5bb9\u5668\n\n\n\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf DBMS\n#\n\n\nDatabase Management System\uff0c\u7ba1\u7406\u6570\u636e\u7684\u8f6f\u4ef6\u3002  \n\n\u5927\u90e8\u5206\u6240\u8bf4\u7684 MySQL\u3001SQL Server\u3001SQLite \u90fd\u6307\u7684 DBMS  \n\nPS\uff1a\u8981\u641e\u6e05\u695a \u300c\u6570\u636e\u5e93\u300d\u548c\u300c\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\u300d\u7684\u533a\u522b\n\n\n\u8868 Table\n#\n\n\n\u67d0\u79cd\u7279\u5b9a\u7c7b\u578b\u6570\u636e\u7684\u7ed3\u6784\u5316\u6e05\u5355\n\n\n\u6a21\u5f0f Schema\n#\n\n\n\u5173\u4e8e\u6570\u636e\u5e93\u548c\u8868\u7684\u5e03\u5c40\u53ca\u7279\u6027\u7684\u4fe1\u606f\u63cf\u8ff0\u3002  \n\n\u6211\u4eec\u5728\u521b\u5efa\u4e00\u5f20\u8868\u7684\u65f6\u5019\uff0c\u9700\u8981\u63cf\u8ff0\u4e00\u5f20\u8868\u7684\u5b57\u6bb5\uff0c\u5b57\u6bb5\u7c7b\u578b\uff0c\u5173\u7cfb\u7b49\u4fe1\u606f\u7684\u65f6\u5019\uff0c\u8fd9\u4e2a\u53eb\u505a\u300c\u6a21\u5f0f\u300d\n\n\n\u884c Row\n#\n\n\n\u522b\u79f0 \u8bb0\u5f55 Record\u3002  \n\n\u6307\u7684\u8868\u4e2d\u7684\u4e00\u4e2a\u8bb0\u5f55\n\n\n\u952e Key\n#\n\n\n\u4e3b\u952e Primary Key\n#\n\n\n\u4e00\u5217\u80fd\u591f\u552f\u4e00\u6807\u8bc6\u8868\u4e2d\u6bcf\u4e00\u884c\u3002  \n\n\u7279\u6027\uff1a  \n\n1. \u552f\u4e00  \n\n2. \u975e\u7a7a  \n\n3. \u4e0d\u4e88\u4fee\u6539\u548c\u66f4\u65b0    \n\n\n\u8054\u5408\u4e3b\u952e Union Primary Key\n#\n\n\n\u591a\u4e2a\u5217\u7ec4\u5408\u6210\u7684\u4e3b\u952e  \n\n\u6240\u6709\u5217\u503c\u5f97\u7ec4\u5408\u7b26\u5408\u300c\u4e3b\u952e\u300d\u7684\u7279\u6027\n\n\n\u5916\u952e\n#\n\n\n\u94fe\u63a5\u4e00\u4e2a\u8868\u548c\u53e6\u5916\u4e00\u4e2a\u8868\u7684\u94a9\u5b50\uff0c\u5916\u952e\u5f80\u5f80\u662f\u53e6\u5916\u4e00\u4e2a\u8868\u7684\u4e3b\u952e\n\n\nSQL\n#\n\n\nStructured Query Language  \n\nSQL\u662f\u6709\u6807\u51c6\u7684\uff0c\u6807\u51c6\u7248\u7684SQL\uff1a\nANSI SQL\n  \n\n\u5404\u4e2aDBMS\u5382\u5546\u90fd\u5728\u652f\u6301\u6807\u51c6\u7684SQL\u57fa\u7840\u4e0a\uff0c\u6839\u636e\u81ea\u8eab\u529f\u80fd\u6269\u5c55SQL\u3002\u8fd9\u4e5f\u662fSQL\u79fb\u690d\u6027\u5f88\u5dee\u7684\u539f\u56e0\u4e4b\u4e00\u3002  \n\n\u7279\u6027\uff1a  \n\n1. \u4e0d\u5206\u5927\u5c0f\u5199  \n\n2. \u8bed\u53e5\u7ed3\u5c3e\u5206\u53f7\u6ca1\u6709\u5fc5\u8981\u6027\uff08MySQL\u5f3a\u5236\u52a0\u4e0a\uff09  \n\n3. \u7a7a\u683c\u4f1a\u88ab\u5ffd\u7565\uff0c\u4e00\u6761\u8bed\u53e5\u53ef\u4ee5\u5206\u591a\u884c\uff0c\u4e5f\u53ef\u4ee5\u4e00\u884c    \n\n\n\u5b50\u53e5 Clause\n#\n\n\nSQL\u8bed\u53e5\u7531\u5b50\u53e5\u6784\u6210\uff0c\u6709\u4e9b\u5b50\u53e5\u662f\u5fc5\u987b\u7684\uff0c\u6709\u4e9b\u5219\u662f\u53ef\u9009\u7684\u3002  \n\n\u4e00\u4e2a\u5b50\u53e5\u901a\u5e38\u7531\u4e00\u4e2a\u5173\u952e\u5b57\u52a0\u4e0a\u6240\u63d0\u4f9b\u7684\u6570\u636e\u7ec4\u6210\uff0c\u5982\uff1a  \n\n1. SELET filed1_name, filed2_name  \n\n2. FROM table_name  \n\n3. ORDER BY filed_name    \n\n\nSELECT \u7684\u5b50\u53e5\u6709\uff1a    \n\n\n\n\nSELECT    \n\n\nFROM    \n\n\nWHERE    \n\n\nGROUP BY    \n\n\nHAVING    \n\n\nORDER BY", 
+            "title": "1 \u57fa\u672c\u6982\u5ff5"
+        }, 
+        {
+            "location": "/ch01/#_1", 
+            "text": "", 
+            "title": "\u57fa\u672c\u6982\u5ff5"
+        }, 
+        {
+            "location": "/ch01/#db", 
+            "text": "Database, \u6570\u636e\u7684\u5bb9\u5668", 
+            "title": "\u6570\u636e\u5e93 DB"
+        }, 
+        {
+            "location": "/ch01/#dbms", 
+            "text": "Database Management System\uff0c\u7ba1\u7406\u6570\u636e\u7684\u8f6f\u4ef6\u3002   \n\u5927\u90e8\u5206\u6240\u8bf4\u7684 MySQL\u3001SQL Server\u3001SQLite \u90fd\u6307\u7684 DBMS   \nPS\uff1a\u8981\u641e\u6e05\u695a \u300c\u6570\u636e\u5e93\u300d\u548c\u300c\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\u300d\u7684\u533a\u522b", 
+            "title": "\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf DBMS"
+        }, 
+        {
+            "location": "/ch01/#table", 
+            "text": "\u67d0\u79cd\u7279\u5b9a\u7c7b\u578b\u6570\u636e\u7684\u7ed3\u6784\u5316\u6e05\u5355", 
+            "title": "\u8868 Table"
+        }, 
+        {
+            "location": "/ch01/#schema", 
+            "text": "\u5173\u4e8e\u6570\u636e\u5e93\u548c\u8868\u7684\u5e03\u5c40\u53ca\u7279\u6027\u7684\u4fe1\u606f\u63cf\u8ff0\u3002   \n\u6211\u4eec\u5728\u521b\u5efa\u4e00\u5f20\u8868\u7684\u65f6\u5019\uff0c\u9700\u8981\u63cf\u8ff0\u4e00\u5f20\u8868\u7684\u5b57\u6bb5\uff0c\u5b57\u6bb5\u7c7b\u578b\uff0c\u5173\u7cfb\u7b49\u4fe1\u606f\u7684\u65f6\u5019\uff0c\u8fd9\u4e2a\u53eb\u505a\u300c\u6a21\u5f0f\u300d", 
+            "title": "\u6a21\u5f0f Schema"
+        }, 
+        {
+            "location": "/ch01/#row", 
+            "text": "\u522b\u79f0 \u8bb0\u5f55 Record\u3002   \n\u6307\u7684\u8868\u4e2d\u7684\u4e00\u4e2a\u8bb0\u5f55", 
+            "title": "\u884c Row"
+        }, 
+        {
+            "location": "/ch01/#key", 
+            "text": "", 
+            "title": "\u952e Key"
+        }, 
+        {
+            "location": "/ch01/#primary-key", 
+            "text": "\u4e00\u5217\u80fd\u591f\u552f\u4e00\u6807\u8bc6\u8868\u4e2d\u6bcf\u4e00\u884c\u3002   \n\u7279\u6027\uff1a   \n1. \u552f\u4e00   \n2. \u975e\u7a7a   \n3. \u4e0d\u4e88\u4fee\u6539\u548c\u66f4\u65b0", 
+            "title": "\u4e3b\u952e Primary Key"
+        }, 
+        {
+            "location": "/ch01/#union-primary-key", 
+            "text": "\u591a\u4e2a\u5217\u7ec4\u5408\u6210\u7684\u4e3b\u952e   \n\u6240\u6709\u5217\u503c\u5f97\u7ec4\u5408\u7b26\u5408\u300c\u4e3b\u952e\u300d\u7684\u7279\u6027", 
+            "title": "\u8054\u5408\u4e3b\u952e Union Primary Key"
+        }, 
+        {
+            "location": "/ch01/#_2", 
+            "text": "\u94fe\u63a5\u4e00\u4e2a\u8868\u548c\u53e6\u5916\u4e00\u4e2a\u8868\u7684\u94a9\u5b50\uff0c\u5916\u952e\u5f80\u5f80\u662f\u53e6\u5916\u4e00\u4e2a\u8868\u7684\u4e3b\u952e", 
+            "title": "\u5916\u952e"
+        }, 
+        {
+            "location": "/ch01/#sql", 
+            "text": "Structured Query Language   \nSQL\u662f\u6709\u6807\u51c6\u7684\uff0c\u6807\u51c6\u7248\u7684SQL\uff1a ANSI SQL    \n\u5404\u4e2aDBMS\u5382\u5546\u90fd\u5728\u652f\u6301\u6807\u51c6\u7684SQL\u57fa\u7840\u4e0a\uff0c\u6839\u636e\u81ea\u8eab\u529f\u80fd\u6269\u5c55SQL\u3002\u8fd9\u4e5f\u662fSQL\u79fb\u690d\u6027\u5f88\u5dee\u7684\u539f\u56e0\u4e4b\u4e00\u3002   \n\u7279\u6027\uff1a   \n1. \u4e0d\u5206\u5927\u5c0f\u5199   \n2. \u8bed\u53e5\u7ed3\u5c3e\u5206\u53f7\u6ca1\u6709\u5fc5\u8981\u6027\uff08MySQL\u5f3a\u5236\u52a0\u4e0a\uff09   \n3. \u7a7a\u683c\u4f1a\u88ab\u5ffd\u7565\uff0c\u4e00\u6761\u8bed\u53e5\u53ef\u4ee5\u5206\u591a\u884c\uff0c\u4e5f\u53ef\u4ee5\u4e00\u884c", 
+            "title": "SQL"
+        }, 
+        {
+            "location": "/ch01/#clause", 
+            "text": "SQL\u8bed\u53e5\u7531\u5b50\u53e5\u6784\u6210\uff0c\u6709\u4e9b\u5b50\u53e5\u662f\u5fc5\u987b\u7684\uff0c\u6709\u4e9b\u5219\u662f\u53ef\u9009\u7684\u3002   \n\u4e00\u4e2a\u5b50\u53e5\u901a\u5e38\u7531\u4e00\u4e2a\u5173\u952e\u5b57\u52a0\u4e0a\u6240\u63d0\u4f9b\u7684\u6570\u636e\u7ec4\u6210\uff0c\u5982\uff1a   \n1. SELET filed1_name, filed2_name   \n2. FROM table_name   \n3. ORDER BY filed_name      SELECT \u7684\u5b50\u53e5\u6709\uff1a       SELECT      FROM      WHERE      GROUP BY      HAVING      ORDER BY", 
+            "title": "\u5b50\u53e5 Clause"
+        }, 
+        {
+            "location": "/ch02/2.1/", 
+            "text": "\u521b\u5efa\u8868\n#\n\n\n\u8bed\u6cd5\n#\n\n\nCREATE\n \nTABLE\n \ntablename\n(\n\n  \ncolumn_name\n \ndatatype\n \n[\nNULL\n \n|\n \nNOT\n \nNULL\n]\n \n[\nCONSTRAINTS\n]\n \n[\nDEFAULT\n \nvalue\n],\n\n  \ncolumn_name\n \ndatatype\n \n[\nNULL\n \n|\n \nNOT\n \nNULL\n]\n \n[\nCONSTRAINTS\n]\n \n[\nDEFAULT\n \nvalue\n],\n\n  \n...\n  \n\n)\n\n\n\n\n\n\n\u8bf4\u660e\n\n\n\n\ncolumn_name: \u8868\u540d\n\n\ndatatype: \u6570\u636e\u7c7b\u578b\n\n\n[NULL | NOT NULL]\uff1a\u53ef\u9009\uff0c\u662f\u5426\u975e\u7a7a\n\n\n[CONSTRAINTS]\uff1a\u53ef\u9009\uff0c\u7ea6\u675f\u63cf\u8ff0\n\n\n[DEFAULT value]\uff1a\u9ed8\u8ba4\u503c\uff0c\u53ef\u4ee5\u8bbe\u7f6e\u5177\u4f53\u503c\uff0c\u4e5f\u53ef\u4ee5\u5f15\u7528DBMS\u5185\u7f6e\u7684\u51fd\u6570\uff0c\u5982\nnow()\n, \ncurrent_date()\n\n\n\n\n\u590d\u6742\u7528\u6cd5\n#\n\n\n\u66f4\u590d\u6742\u7528\u6cd5\u53c2\u8003\uff1a\nMySQL5.7 Reference - create table syntax\n\n\n\u7ec3\u4e60\u9898\n#\n\n\n1. \u521b\u5efa\u4e00\u5f20 User \u8868\uff0c\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\n#\n\n\n\n\n\n\n\n\n\u5217\u540d\n\n\n\u7c7b\u578b\n\n\n\u662f\u5426\u7a7a\n\n\n\u9ed8\u8ba4\u503c\n\n\n\n\n\n\n\n\n\n\nid\n\n\n\u6570\u5b57\n\n\n\u975e\u7a7a\uff0c\u4e3b\u952e\n\n\n\u81ea\u589e\u6570\u5b57\n\n\n\n\n\n\nname\n\n\n\u5b57\u7b26\u4e32\n\n\n\u975e\u7a7a\n\n\n-\n\n\n\n\n\n\ncreated_at\n\n\n\u65f6\u95f4\n\n\n\u975e\u7a7a\n\n\n\u5f53\u524d\u65f6\u95f4\n\n\n\n\n\n\n\n\n# \u5982\u679c\u5b58\u5728 User \u8868\uff0c\u5148\u5220\u9664\nDROP TABLE IF EXISTS User;\nCREATE TABLE User (\n    `id` int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,\n    `name` char(50) NOT NULL,\n    `created_at` timestamp NULL DEFAULT NOW()\n);", 
+            "title": "2.1 \u521b\u5efa\u8868"
+        }, 
+        {
+            "location": "/ch02/2.1/#_1", 
+            "text": "", 
+            "title": "\u521b\u5efa\u8868"
+        }, 
+        {
+            "location": "/ch02/2.1/#_2", 
+            "text": "CREATE   TABLE   tablename ( \n   column_name   datatype   [ NULL   |   NOT   NULL ]   [ CONSTRAINTS ]   [ DEFAULT   value ], \n   column_name   datatype   [ NULL   |   NOT   NULL ]   [ CONSTRAINTS ]   [ DEFAULT   value ], \n   ...    )   \u8bf4\u660e   column_name: \u8868\u540d  datatype: \u6570\u636e\u7c7b\u578b  [NULL | NOT NULL]\uff1a\u53ef\u9009\uff0c\u662f\u5426\u975e\u7a7a  [CONSTRAINTS]\uff1a\u53ef\u9009\uff0c\u7ea6\u675f\u63cf\u8ff0  [DEFAULT value]\uff1a\u9ed8\u8ba4\u503c\uff0c\u53ef\u4ee5\u8bbe\u7f6e\u5177\u4f53\u503c\uff0c\u4e5f\u53ef\u4ee5\u5f15\u7528DBMS\u5185\u7f6e\u7684\u51fd\u6570\uff0c\u5982 now() ,  current_date()", 
+            "title": "\u8bed\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.1/#_3", 
+            "text": "\u66f4\u590d\u6742\u7528\u6cd5\u53c2\u8003\uff1a MySQL5.7 Reference - create table syntax", 
+            "title": "\u590d\u6742\u7528\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.1/#_4", 
+            "text": "", 
+            "title": "\u7ec3\u4e60\u9898"
+        }, 
+        {
+            "location": "/ch02/2.1/#1-user", 
+            "text": "\u5217\u540d  \u7c7b\u578b  \u662f\u5426\u7a7a  \u9ed8\u8ba4\u503c      id  \u6570\u5b57  \u975e\u7a7a\uff0c\u4e3b\u952e  \u81ea\u589e\u6570\u5b57    name  \u5b57\u7b26\u4e32  \u975e\u7a7a  -    created_at  \u65f6\u95f4  \u975e\u7a7a  \u5f53\u524d\u65f6\u95f4     # \u5982\u679c\u5b58\u5728 User \u8868\uff0c\u5148\u5220\u9664\nDROP TABLE IF EXISTS User;\nCREATE TABLE User (\n    `id` int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,\n    `name` char(50) NOT NULL,\n    `created_at` timestamp NULL DEFAULT NOW()\n);", 
+            "title": "1. \u521b\u5efa\u4e00\u5f20 User \u8868\uff0c\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6"
+        }, 
+        {
+            "location": "/ch02/2.2/", 
+            "text": "\u66f4\u65b0\u8868\n#\n\n\n\u8bed\u6cd5\n#\n\n\nALTER\n \nTABLE\n \ntablename\n\n\nADD\n|\nDROP\n \ncolumn\n \ndatatype\n \n[\nNULL\n|\nNOT\n \nNULL\n]\n \n[\nCONSTRANINTS\n]\n \n[\nDEFAULT\n \nvalue\n]\n\n\nADD\n|\nDROP\n \ncolumn\n \ndatatype\n \n[\nNULL\n|\nNOT\n \nNULL\n]\n \n[\nCONSTRANINTS\n]\n \n[\nDEFAULT\n \nvalue\n]\n\n\n...\n  \n\n\n\n\n\n\u9ad8\u7ea7\u7528\u6cd5\n#\n\n\n\u66f4\u591a\u9ad8\u7ea7\u7528\u6cd5\u53c2\u8003\uff1a\nMySQL5.7 Reference - alter table syntax\n\n\n\u7ec3\u4e60\u9898\n#\n\n\n\n\n\u7ed9 User \u8868\u65b0\u589e\u6ee1\u8db3\u4e0b\u9762\u8981\u6c42\u7684\u4e00\u5217\n\n\n\n\n\n\n\n\n\n\n\u5217\u540d\n\n\n\u7c7b\u578b\n\n\n\u662f\u5426\u7a7a\n\n\n\u9ed8\u8ba4\u503c\n\n\n\n\n\n\n\n\n\n\nage\n\n\n\u6570\u5b57\n\n\n\u975e\u7a7a\n\n\n18\n\n\n\n\n\n\n\n\nALTER TABLE User\nADD age int(3) NOT NULL DEFAULT 18", 
+            "title": "2.2 \u66f4\u65b0\u8868"
+        }, 
+        {
+            "location": "/ch02/2.2/#_1", 
+            "text": "", 
+            "title": "\u66f4\u65b0\u8868"
+        }, 
+        {
+            "location": "/ch02/2.2/#_2", 
+            "text": "ALTER   TABLE   tablename  ADD | DROP   column   datatype   [ NULL | NOT   NULL ]   [ CONSTRANINTS ]   [ DEFAULT   value ]  ADD | DROP   column   datatype   [ NULL | NOT   NULL ]   [ CONSTRANINTS ]   [ DEFAULT   value ]  ...", 
+            "title": "\u8bed\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.2/#_3", 
+            "text": "\u66f4\u591a\u9ad8\u7ea7\u7528\u6cd5\u53c2\u8003\uff1a MySQL5.7 Reference - alter table syntax", 
+            "title": "\u9ad8\u7ea7\u7528\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.2/#_4", 
+            "text": "\u7ed9 User \u8868\u65b0\u589e\u6ee1\u8db3\u4e0b\u9762\u8981\u6c42\u7684\u4e00\u5217      \u5217\u540d  \u7c7b\u578b  \u662f\u5426\u7a7a  \u9ed8\u8ba4\u503c      age  \u6570\u5b57  \u975e\u7a7a  18     ALTER TABLE User\nADD age int(3) NOT NULL DEFAULT 18", 
+            "title": "\u7ec3\u4e60\u9898"
+        }, 
+        {
+            "location": "/ch02/2.3/", 
+            "text": "\u5220\u9664\u8868\n#\n\n\n\u5220\u9664\u8868\uff0c\u4f1a\u5bf9\u8868\u7684\u6570\u636e\u3001\u5b9a\u4e49\u3001\u4ee5\u53ca\u5173\u8054\u90fd\u4f1a\u5220\u9664\u3002  \n\n\u800c\u4e14\u662f\u4e0d\u53ef\u4ee5\u64a4\u56de\u7684\uff0c\u6240\u4ee5\u5728\u505a\u8fd9\u79cd\u64cd\u4f5c\u7684\u65f6\u5019\u8981\u614e\u91cd\uff0c\u4e14\u8981\u505a\u597d\u6570\u636e\u7684\u5907\u4efd\u3002\n\n\n\u8bed\u6cd5\n#\n\n\nDROP\n \n[\nTEMPORARY\n]\n \nTABLE\n \n[\nIF\n \nEXISTS\n]\n\n    \ntbl_name\n \n[,\n \ntbl_name\n]\n \n...\n\n    \n[\nRESTRICT\n \n|\n \nCASCADE\n]\n\n\n\n\n\n\n\u9ad8\u7ea7\u7528\u6cd5\n#\n\n\n\u66f4\u591a\u9ad8\u7ea7\u7528\u6cd5\u53c2\u8003\uff1a\nMySQL5.7 Reference - drop table syntax\n\n\n\u7ec3\u4e60\u9898\n#\n\n\n\n\n\u5220\u9664\u521a\u624d\u521b\u5efa\u7684 User \u8868\n\n\n\n\nDROP TABLE User;", 
+            "title": "2.3 \u5220\u9664\u8868"
+        }, 
+        {
+            "location": "/ch02/2.3/#_1", 
+            "text": "\u5220\u9664\u8868\uff0c\u4f1a\u5bf9\u8868\u7684\u6570\u636e\u3001\u5b9a\u4e49\u3001\u4ee5\u53ca\u5173\u8054\u90fd\u4f1a\u5220\u9664\u3002   \n\u800c\u4e14\u662f\u4e0d\u53ef\u4ee5\u64a4\u56de\u7684\uff0c\u6240\u4ee5\u5728\u505a\u8fd9\u79cd\u64cd\u4f5c\u7684\u65f6\u5019\u8981\u614e\u91cd\uff0c\u4e14\u8981\u505a\u597d\u6570\u636e\u7684\u5907\u4efd\u3002", 
+            "title": "\u5220\u9664\u8868"
+        }, 
+        {
+            "location": "/ch02/2.3/#_2", 
+            "text": "DROP   [ TEMPORARY ]   TABLE   [ IF   EXISTS ] \n     tbl_name   [,   tbl_name ]   ... \n     [ RESTRICT   |   CASCADE ]", 
+            "title": "\u8bed\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.3/#_3", 
+            "text": "\u66f4\u591a\u9ad8\u7ea7\u7528\u6cd5\u53c2\u8003\uff1a MySQL5.7 Reference - drop table syntax", 
+            "title": "\u9ad8\u7ea7\u7528\u6cd5"
+        }, 
+        {
+            "location": "/ch02/2.3/#_4", 
+            "text": "\u5220\u9664\u521a\u624d\u521b\u5efa\u7684 User \u8868   DROP TABLE User;", 
+            "title": "\u7ec3\u4e60\u9898"
+        }, 
+        {
+            "location": "/ch03/2.1/", 
+            "text": "\u603b\u89c8\n#", 
+            "title": "3.1 \u63d2\u5165\u6570\u636e"
+        }, 
+        {
+            "location": "/ch03/2.1/#_1", 
+            "text": "", 
+            "title": "\u603b\u89c8"
+        }, 
+        {
+            "location": "/ch03/2.2/", 
+            "text": "\u603b\u89c8\n#", 
+            "title": "3.2 \u66f4\u65b0\u6570\u636e"
+        }, 
+        {
+            "location": "/ch03/2.2/#_1", 
+            "text": "", 
+            "title": "\u603b\u89c8"
+        }, 
+        {
+            "location": "/ch03/2.3/", 
+            "text": "\u603b\u89c8\n#", 
+            "title": "3.3 \u5220\u9664\u6570\u636e"
+        }, 
+        {
+            "location": "/ch03/2.3/#_1", 
+            "text": "", 
+            "title": "\u603b\u89c8"
+        }, 
+        {
+            "location": "/ch04/", 
+            "text": "", 
+            "title": "4 \u8868\u8fbe\u5f0f"
+        }, 
+        {
+            "location": "/ch05/", 
+            "text": "", 
+            "title": "5 \u6ce8\u91ca"
+        }, 
+        {
+            "location": "/ch06/6.1/", 
+            "text": "", 
+            "title": "6.1 \u666e\u901a\u67e5\u8be2"
+        }, 
+        {
+            "location": "/ch06/6.2/", 
+            "text": "", 
+            "title": "6.2 \u8fc7\u6ee4"
+        }, 
+        {
+            "location": "/ch06/6.3/", 
+            "text": "", 
+            "title": "6.3 \u6392\u5e8f"
+        }, 
+        {
+            "location": "/ch06/6.4/", 
+            "text": "", 
+            "title": "6.4 \u5206\u7ec4"
+        }, 
+        {
+            "location": "/ch06/6.5/", 
+            "text": "", 
+            "title": "6.5 \u5b50\u67e5\u8be2"
+        }, 
+        {
+            "location": "/ch06/6.6/", 
+            "text": "", 
+            "title": "6.6 \u8054\u7ed3\u67e5\u8be2"
+        }, 
+        {
+            "location": "/ch06/6.7/", 
+            "text": "", 
+            "title": "6.7 \u7ec4\u5408\u67e5\u8be2"
+        }, 
+        {
+            "location": "/appendix/script/", 
+            "text": "\u6570\u636e\u811a\u672c\n#\n\n\ntable.sql\n#\n\n\n-- -----------------------------------------\n-- Sams Teach Yourself SQL in 10 Minutes\n-- http://forta.com/books/0672336073/\n-- Example table creation scripts for MySQL.\n-- -----------------------------------------\n\n\n-- ----------------------\n-- Create Customers table\n-- ----------------------\nCREATE TABLE Customers\n(\n  cust_id      char(10)  NOT NULL ,\n  cust_name    char(50)  NOT NULL ,\n  cust_address char(50)  NULL ,\n  cust_city    char(50)  NULL ,\n  cust_state   char(5)   NULL ,\n  cust_zip     char(10)  NULL ,\n  cust_country char(50)  NULL ,\n  cust_contact char(50)  NULL ,\n  cust_email   char(255) NULL \n);\n\n-- -----------------------\n-- Create OrderItems table\n-- -----------------------\nCREATE TABLE OrderItems\n(\n  order_num  int          NOT NULL ,\n  order_item int          NOT NULL ,\n  prod_id    char(10)     NOT NULL ,\n  quantity   int          NOT NULL ,\n  item_price decimal(8,2) NOT NULL \n);\n\n\n-- -------------------\n-- Create Orders table\n-- -------------------\nCREATE TABLE Orders\n(\n  order_num  int      NOT NULL ,\n  order_date datetime NOT NULL ,\n  cust_id    char(10) NOT NULL \n);\n\n-- ---------------------\n-- Create Products table\n-- ---------------------\nCREATE TABLE Products\n(\n  prod_id    char(10)      NOT NULL ,\n  vend_id    char(10)      NOT NULL ,\n  prod_name  char(255)     NOT NULL ,\n  prod_price decimal(8,2)  NOT NULL ,\n  prod_desc  text          NULL \n);\n\n-- --------------------\n-- Create Vendors table\n-- --------------------\nCREATE TABLE Vendors\n(\n  vend_id      char(10) NOT NULL ,\n  vend_name    char(50) NOT NULL ,\n  vend_address char(50) NULL ,\n  vend_city    char(50) NULL ,\n  vend_state   char(5)  NULL ,\n  vend_zip     char(10) NULL ,\n  vend_country char(50) NULL \n);\n\n\n-- -------------------\n-- Define primary keys\n-- -------------------\nALTER TABLE Customers ADD PRIMARY KEY (cust_id);\nALTER TABLE OrderItems ADD PRIMARY KEY (order_num, order_item);\nALTER TABLE Orders ADD PRIMARY KEY (order_num);\nALTER TABLE Products ADD PRIMARY KEY (prod_id);\nALTER TABLE Vendors ADD PRIMARY KEY (vend_id);\n\n\n-- -------------------\n-- Define foreign keys\n-- -------------------\nALTER TABLE OrderItems ADD CONSTRAINT FK_OrderItems_Orders FOREIGN KEY (order_num) REFERENCES Orders (order_num);\nALTER TABLE OrderItems ADD CONSTRAINT FK_OrderItems_Products FOREIGN KEY (prod_id) REFERENCES Products (prod_id);\nALTER TABLE Orders ADD CONSTRAINT FK_Orders_Customers FOREIGN KEY (cust_id) REFERENCES Customers (cust_id);\nALTER TABLE Products ADD CONSTRAINT FK_Products_Vendors FOREIGN KEY (vend_id) REFERENCES Vendors (vend_id);\n\n\n\n\n\ndata.sql\n#\n\n\n-- -------------------------------------------\n-- Sams Teach Yourself SQL in 10 Minutes\n-- http://forta.com/books/0672336073/\n-- Example table population scripts for MySQL.\n-- -------------------------------------------\n\n\n-- ------------------------\n-- Populate Customers table\n-- ------------------------\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES(\n1000000001\n, \nVillage Toys\n, \n200 Maple Lane\n, \nDetroit\n, \nMI\n, \n44444\n, \nUSA\n, \nJohn Smith\n, \nsales@villagetoys.com\n);\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)\nVALUES(\n1000000002\n, \nKids Place\n, \n333 South Lake Drive\n, \nColumbus\n, \nOH\n, \n43333\n, \nUSA\n, \nMichelle Green\n);\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES(\n1000000003\n, \nFun4All\n, \n1 Sunny Place\n, \nMuncie\n, \nIN\n, \n42222\n, \nUSA\n, \nJim Jones\n, \njjones@fun4all.com\n);\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES(\n1000000004\n, \nFun4All\n, \n829 Riverside Drive\n, \nPhoenix\n, \nAZ\n, \n88888\n, \nUSA\n, \nDenise L. Stephens\n, \ndstephens@fun4all.com\n);\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)\nVALUES(\n1000000005\n, \nThe Toy Store\n, \n4545 53rd Street\n, \nChicago\n, \nIL\n, \n54545\n, \nUSA\n, \nKim Howard\n);\n\n-- ----------------------\n-- Populate Vendors table\n-- ----------------------\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nBRS01\n,\nBears R Us\n,\n123 Main Street\n,\nBear Town\n,\nMI\n,\n44444\n, \nUSA\n);\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nBRE02\n,\nBear Emporium\n,\n500 Park Street\n,\nAnytown\n,\nOH\n,\n44333\n, \nUSA\n);\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nDLL01\n,\nDoll House Inc.\n,\n555 High Street\n,\nDollsville\n,\nCA\n,\n99999\n, \nUSA\n);\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nFRB01\n,\nFurball Inc.\n,\n1000 5th Avenue\n,\nNew York\n,\nNY\n,\n11111\n, \nUSA\n);\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nFNG01\n,\nFun and Games\n,\n42 Galaxy Road\n,\nLondon\n, NULL,\nN16 6PS\n, \nEngland\n);\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES(\nJTS01\n,\nJouets et ours\n,\n1 Rue Amusement\n,\nParis\n, NULL,\n45678\n, \nFrance\n);\n\n-- -----------------------\n-- Populate Products table\n-- -----------------------\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBR01\n, \nBRS01\n, \n8 inch teddy bear\n, 5.99, \n8 inch teddy bear, comes with cap and jacket\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBR02\n, \nBRS01\n, \n12 inch teddy bear\n, 8.99, \n12 inch teddy bear, comes with cap and jacket\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBR03\n, \nBRS01\n, \n18 inch teddy bear\n, 11.99, \n18 inch teddy bear, comes with cap and jacket\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBNBG01\n, \nDLL01\n, \nFish bean bag toy\n, 3.49, \nFish bean bag toy, complete with bean bag worms with which to feed it\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBNBG02\n, \nDLL01\n, \nBird bean bag toy\n, 3.49, \nBird bean bag toy, eggs are not included\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nBNBG03\n, \nDLL01\n, \nRabbit bean bag toy\n, 3.49, \nRabbit bean bag toy, comes with bean bag carrots\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nRGAN01\n, \nDLL01\n, \nRaggedy Ann\n, 4.99, \n18 inch Raggedy Ann doll\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nRYL01\n, \nFNG01\n, \nKing doll\n, 9.49, \n12 inch king doll with royal garments and crown\n);\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES(\nRYL02\n, \nFNG01\n, \nQueen doll\n, 9.49, \n12 inch queen doll with royal garments and crown\n);\n\n-- ---------------------\n-- Populate Orders table\n-- ---------------------\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20005, \n2012-05-01\n, \n1000000001\n);\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20006, \n2012-01-12\n, \n1000000003\n);\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20007, \n2012-01-30\n, \n1000000004\n);\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20008, \n2012-02-03\n, \n1000000005\n);\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20009, \n2012-02-08\n, \n1000000001\n);\n\n-- -------------------------\n-- Populate OrderItems table\n-- -------------------------\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20005, 1, \nBR01\n, 100, 5.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20005, 2, \nBR03\n, 100, 10.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 1, \nBR01\n, 20, 5.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 2, \nBR02\n, 10, 8.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 3, \nBR03\n, 10, 11.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 1, \nBR03\n, 50, 11.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 2, \nBNBG01\n, 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 3, \nBNBG02\n, 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 4, \nBNBG03\n, 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 5, \nRGAN01\n, 50, 4.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 1, \nRGAN01\n, 5, 4.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 2, \nBR03\n, 5, 11.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 3, \nBNBG01\n, 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 4, \nBNBG02\n, 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 5, \nBNBG03\n, 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 1, \nBNBG01\n, 250, 2.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 2, \nBNBG02\n, 250, 2.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 3, \nBNBG03\n, 250, 2.49);", 
+            "title": "\u6570\u636e\u811a\u672c"
+        }, 
+        {
+            "location": "/appendix/script/#_1", 
+            "text": "", 
+            "title": "\u6570\u636e\u811a\u672c"
+        }, 
+        {
+            "location": "/appendix/script/#tablesql", 
+            "text": "-- -----------------------------------------\n-- Sams Teach Yourself SQL in 10 Minutes\n-- http://forta.com/books/0672336073/\n-- Example table creation scripts for MySQL.\n-- -----------------------------------------\n\n\n-- ----------------------\n-- Create Customers table\n-- ----------------------\nCREATE TABLE Customers\n(\n  cust_id      char(10)  NOT NULL ,\n  cust_name    char(50)  NOT NULL ,\n  cust_address char(50)  NULL ,\n  cust_city    char(50)  NULL ,\n  cust_state   char(5)   NULL ,\n  cust_zip     char(10)  NULL ,\n  cust_country char(50)  NULL ,\n  cust_contact char(50)  NULL ,\n  cust_email   char(255) NULL \n);\n\n-- -----------------------\n-- Create OrderItems table\n-- -----------------------\nCREATE TABLE OrderItems\n(\n  order_num  int          NOT NULL ,\n  order_item int          NOT NULL ,\n  prod_id    char(10)     NOT NULL ,\n  quantity   int          NOT NULL ,\n  item_price decimal(8,2) NOT NULL \n);\n\n\n-- -------------------\n-- Create Orders table\n-- -------------------\nCREATE TABLE Orders\n(\n  order_num  int      NOT NULL ,\n  order_date datetime NOT NULL ,\n  cust_id    char(10) NOT NULL \n);\n\n-- ---------------------\n-- Create Products table\n-- ---------------------\nCREATE TABLE Products\n(\n  prod_id    char(10)      NOT NULL ,\n  vend_id    char(10)      NOT NULL ,\n  prod_name  char(255)     NOT NULL ,\n  prod_price decimal(8,2)  NOT NULL ,\n  prod_desc  text          NULL \n);\n\n-- --------------------\n-- Create Vendors table\n-- --------------------\nCREATE TABLE Vendors\n(\n  vend_id      char(10) NOT NULL ,\n  vend_name    char(50) NOT NULL ,\n  vend_address char(50) NULL ,\n  vend_city    char(50) NULL ,\n  vend_state   char(5)  NULL ,\n  vend_zip     char(10) NULL ,\n  vend_country char(50) NULL \n);\n\n\n-- -------------------\n-- Define primary keys\n-- -------------------\nALTER TABLE Customers ADD PRIMARY KEY (cust_id);\nALTER TABLE OrderItems ADD PRIMARY KEY (order_num, order_item);\nALTER TABLE Orders ADD PRIMARY KEY (order_num);\nALTER TABLE Products ADD PRIMARY KEY (prod_id);\nALTER TABLE Vendors ADD PRIMARY KEY (vend_id);\n\n\n-- -------------------\n-- Define foreign keys\n-- -------------------\nALTER TABLE OrderItems ADD CONSTRAINT FK_OrderItems_Orders FOREIGN KEY (order_num) REFERENCES Orders (order_num);\nALTER TABLE OrderItems ADD CONSTRAINT FK_OrderItems_Products FOREIGN KEY (prod_id) REFERENCES Products (prod_id);\nALTER TABLE Orders ADD CONSTRAINT FK_Orders_Customers FOREIGN KEY (cust_id) REFERENCES Customers (cust_id);\nALTER TABLE Products ADD CONSTRAINT FK_Products_Vendors FOREIGN KEY (vend_id) REFERENCES Vendors (vend_id);", 
+            "title": "table.sql"
+        }, 
+        {
+            "location": "/appendix/script/#datasql", 
+            "text": "-- -------------------------------------------\n-- Sams Teach Yourself SQL in 10 Minutes\n-- http://forta.com/books/0672336073/\n-- Example table population scripts for MySQL.\n-- -------------------------------------------\n\n\n-- ------------------------\n-- Populate Customers table\n-- ------------------------\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES( 1000000001 ,  Village Toys ,  200 Maple Lane ,  Detroit ,  MI ,  44444 ,  USA ,  John Smith ,  sales@villagetoys.com );\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)\nVALUES( 1000000002 ,  Kids Place ,  333 South Lake Drive ,  Columbus ,  OH ,  43333 ,  USA ,  Michelle Green );\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES( 1000000003 ,  Fun4All ,  1 Sunny Place ,  Muncie ,  IN ,  42222 ,  USA ,  Jim Jones ,  jjones@fun4all.com );\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)\nVALUES( 1000000004 ,  Fun4All ,  829 Riverside Drive ,  Phoenix ,  AZ ,  88888 ,  USA ,  Denise L. Stephens ,  dstephens@fun4all.com );\nINSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)\nVALUES( 1000000005 ,  The Toy Store ,  4545 53rd Street ,  Chicago ,  IL ,  54545 ,  USA ,  Kim Howard );\n\n-- ----------------------\n-- Populate Vendors table\n-- ----------------------\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( BRS01 , Bears R Us , 123 Main Street , Bear Town , MI , 44444 ,  USA );\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( BRE02 , Bear Emporium , 500 Park Street , Anytown , OH , 44333 ,  USA );\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( DLL01 , Doll House Inc. , 555 High Street , Dollsville , CA , 99999 ,  USA );\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( FRB01 , Furball Inc. , 1000 5th Avenue , New York , NY , 11111 ,  USA );\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( FNG01 , Fun and Games , 42 Galaxy Road , London , NULL, N16 6PS ,  England );\nINSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)\nVALUES( JTS01 , Jouets et ours , 1 Rue Amusement , Paris , NULL, 45678 ,  France );\n\n-- -----------------------\n-- Populate Products table\n-- -----------------------\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BR01 ,  BRS01 ,  8 inch teddy bear , 5.99,  8 inch teddy bear, comes with cap and jacket );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BR02 ,  BRS01 ,  12 inch teddy bear , 8.99,  12 inch teddy bear, comes with cap and jacket );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BR03 ,  BRS01 ,  18 inch teddy bear , 11.99,  18 inch teddy bear, comes with cap and jacket );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BNBG01 ,  DLL01 ,  Fish bean bag toy , 3.49,  Fish bean bag toy, complete with bean bag worms with which to feed it );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BNBG02 ,  DLL01 ,  Bird bean bag toy , 3.49,  Bird bean bag toy, eggs are not included );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( BNBG03 ,  DLL01 ,  Rabbit bean bag toy , 3.49,  Rabbit bean bag toy, comes with bean bag carrots );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( RGAN01 ,  DLL01 ,  Raggedy Ann , 4.99,  18 inch Raggedy Ann doll );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( RYL01 ,  FNG01 ,  King doll , 9.49,  12 inch king doll with royal garments and crown );\nINSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)\nVALUES( RYL02 ,  FNG01 ,  Queen doll , 9.49,  12 inch queen doll with royal garments and crown );\n\n-- ---------------------\n-- Populate Orders table\n-- ---------------------\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20005,  2012-05-01 ,  1000000001 );\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20006,  2012-01-12 ,  1000000003 );\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20007,  2012-01-30 ,  1000000004 );\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20008,  2012-02-03 ,  1000000005 );\nINSERT INTO Orders(order_num, order_date, cust_id)\nVALUES(20009,  2012-02-08 ,  1000000001 );\n\n-- -------------------------\n-- Populate OrderItems table\n-- -------------------------\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20005, 1,  BR01 , 100, 5.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20005, 2,  BR03 , 100, 10.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 1,  BR01 , 20, 5.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 2,  BR02 , 10, 8.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20006, 3,  BR03 , 10, 11.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 1,  BR03 , 50, 11.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 2,  BNBG01 , 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 3,  BNBG02 , 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 4,  BNBG03 , 100, 2.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20007, 5,  RGAN01 , 50, 4.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 1,  RGAN01 , 5, 4.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 2,  BR03 , 5, 11.99);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 3,  BNBG01 , 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 4,  BNBG02 , 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20008, 5,  BNBG03 , 10, 3.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 1,  BNBG01 , 250, 2.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 2,  BNBG02 , 250, 2.49);\nINSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)\nVALUES(20009, 3,  BNBG03 , 250, 2.49);", 
+            "title": "data.sql"
+        }
+    ]
+}
